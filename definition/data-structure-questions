@@ -1,0 +1,150 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A.To store multiple values in the object
+-------------------------------------------------------------------------
+
+What are the various operations that can be performed on different Data Structures?
+A. add, remove, update, set, retrieve
+-------------------------------------------------------------------------
+
+List out the areas in which data structures are applied extensively?
+A. Machine learning, databases, graphics, compile, design
+-------------------------------------------------------------------------
+
+what is an Array?
+A. An Object, which can hold multiple values of the same type
+-------------------------------------------------------------------------
+
+what is the difference between the Array and ArrayList?
+A. Array is static, ArrayList is dynamic
+-------------------------------------------------------------------------
+
+what is LinkedList?
+A. Is an objects, that stores values in the nodes
+-------------------------------------------------------------------------
+
+How is an Array different from Linked List?
+A. ArrayList stores values in blocks, but linkedList is doing that in nodes, which are
+connected to each other
+-------------------------------------------------------------------------
+
+what is queue?
+A. A non-linear data structure, that contains values and retrieves them from the tail to head
+-------------------------------------------------------------------------
+
+what is stack?
+A. A non-linear data structure, which contains values and retrieves them from the head to tail
+-------------------------------------------------------------------------
+
+what is FIFO and LIFO?
+A. First-in-first-out (queue), Last-in-first-out (stack)
+-------------------------------------------------------------------------
+
+what is the order of complexity?
+A. The size, which determines how fast the program will run
+-------------------------------------------------------------------------
+
+what is the best case to search an element from an array?
+A. The best way is to use Map, Set or LinkedList
+-------------------------------------------------------------------------
+
+what is the worst case to search an element from an array?
+A. To use arrayList
+-------------------------------------------------------------------------
+
+what is tree in data structure?
+A. Non linear data structure, containing values in hierarchical order, where each node
+has left and right child node
+-------------------------------------------------------------------------
+
+what is graph in data structure?
+A. Non linear data structure, where every node can connect to every other node
+-------------------------------------------------------------------------
+
+what is the difference between the HashTable and HashMap?
+A. HashTable is synchronized adn HashMap is not synchronized
+-------------------------------------------------------------------------
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. LinkedHashMap
+-------------------------------------------------------------------------
+
+How HashMap works in java?
+A. By using key-value structure
+-------------------------------------------------------------------------
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. An exception, which happens when we try to retrieve data from non existing index of the array
+array[array.length+1]
+It happens during the run time
+-------------------------------------------------------------------------
+
+What are the different ways of copying an array into another array?
+A. array.copy, array.clone, loop
+-------------------------------------------------------------------------
+
+What is difference between an array and a linked list?
+A. array is static
+Linked list is dynamic and stores values in nodes
+-------------------------------------------------------------------------
+
+What is DFS and BFS?
+A. DFS (Depth first search) - is a traversal algorithm used for both trees and graphs
+BFS (Breadth first search) - recursive algorithm for searching all the vertices of a graph or a tree
+-------------------------------------------------------------------------
+
+What is Recursion?
+A. A method that can invoke itself within it own block of code
+-------------------------------------------------------------------------
+
+What are linear and non linear data Structures?
+A. Linear data structures - are those, which store their values in order
+Non linear are those, which store their values in chaotic order
+-------------------------------------------------------------------------
+
+What is Big-(O)-notation?
+A. Set of all algorithms that run no worse than a certain speed
+-------------------------------------------------------------------------
+
+Outlined different kind of sorting algorithm with time complexity?
+A. Selection sort (faster than the others)
+Bubble sort (slower, than selection)
+Insertion sort (same as bubble)
+Heap sort (slower than bubble and insertion)
+Quick sort (slower than heap sort)
+Merge sort (same as quick sort)
+Bucket sort (slower than the other ones)
+-------------------------------------------------------------------------
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+Data structure | Accessing Advantage/Disadvantage | Inserting Advantage/Disadvantage | Searching Advantage/Disadvantage | Removing Advantage/Disadvantage|
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Array List     | Retrieving by just using index / | Quick inserting by using add  /  | Easy search with iterator  /     | Removes by pointing to index / |
+               | Needs time to find needed index  | Inserts one by one               | Very slow for larger lists       | When removing, rearranges all  |
+               |                                  |                                  |                                  | indexes                        |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Linked list    | Retrieves by indexes /           | Quick inserting by using add /   | Iterator, if small list/         | Fast removing for the nodes /  |
+               | Takes same amount of time to     | Inserts one after another (slow) | Very slow if the list is large   | Pointing by the index          |
+               | find the needed index            |                                  |                                  |                                |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Map            | Retrieving by using the key to   | Quick inserting by using put /   | Easy search by using key /       | Quick remove by using keys /   |
+               | values structure /               | Needs two values to be pointed   | May contain duplicates           | By removing key, removes both  |
+               | Has two accessing getKey/Value   |                                  |                                  |                                |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Set            | Using loop to access date /      | Quick inserting by using add /   | Use set.Contains() method /      | Fast removing with the method  |
+               | Does not have indexes            | Data is stored unordered         | Slower than map search           | Can not contain duplicates     |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Queue          | By using loop to show all data / | By using method add /            | First in first out /             | Fast removing with the remove()|
+               | Need to retrieve data one by one | Inserted in order and stay in    | Complicated to retrieve data from| Shifts the whole list, when    |
+               | to get to needed index           | that order                       | middle of the queue              | removing                       |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Stack          | By using loop to show all data / | By using method add /            | First in last out /              | Fast removing with the remove()|
+               | Need to retrieve data one by one | Inserted in order and stay in    | Complicated to retrieve data from| Shifts the whole list, when    |
+               | to get to needed index           | that order                       | middle of the queue              | removing                       |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
