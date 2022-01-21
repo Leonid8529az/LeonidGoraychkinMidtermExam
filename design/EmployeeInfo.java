@@ -94,7 +94,7 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee{
 				"first_name","last_name", "date_of_birth","job_position","department", "sector",
 				"location", "email_address", "phone_number", "salary");
 
-		 
+
 	}
 
 

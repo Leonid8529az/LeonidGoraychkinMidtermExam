@@ -1,5 +1,6 @@
 package design;
 
+import algorithm.Sort;
 import com.mysql.cj.util.DnsSrv;
 
 import java.util.List;
@@ -53,7 +54,14 @@ public class FortuneEmployee {
 		EmployeeInfo employee138 = new EmployeeInfo("Handoe", "Kritoria","12.03.1987", positionPointer.customerService,"New York","Customer Service", 58000, "handoikritoria@gmail.com", "333-390-9391" );
 		EmployeeInfo employee139 = new EmployeeInfo("Aqual", "Wesstman","10.27.1994", positionPointer.customerService,"New York","Customer Service", 58000, "aqualwesstman@gmail.com", "145-983-2991" );
 		EmployeeInfo employee140 = new EmployeeInfo("Oddy", "Oklopovskiy","08.17.1991", positionPointer.managerCustomerService,"New York","Customer Service", 84000, "oddyoclopovski@gmail.com", "395-098-9991" );
-
+		try {
+			List<String> emails = connetorReacher.connectToSqlDB.readDataBase(positionPointer.companyName,"email_address");
+			for(int i = 0; i<emails.size(); i++) {
+				System.out.println(emails.get(i));
+			}
+		} catch (Exception ex) {
+			System.out.println(ex);
+		}
 
 
 
